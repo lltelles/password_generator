@@ -22,7 +22,7 @@ input:focus {
 
 #register-container {
   max-width: 900px;
-  height: 100vh;
+  height: 100%;
   margin: 2rem auto;
   display: flex;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
@@ -87,15 +87,15 @@ input:focus {
   border-bottom: 1px solid #aaa;
   padding: 0.6rem 0;
 }
-#generate-password {
+#open-generate-password {
   font-weight: bold;
   cursor: pointer;
   transition: 0.3s;
 }
 
-/* #generate-password:hover {
+#open-generate-password:hover {
   color: #0097ff;
-} */
+}
 
 #register-form #generated-password {
   border: 1px solid #0097ff;
